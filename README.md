@@ -31,4 +31,6 @@ Python PIP:
 
 !! Make sure to run “seabreeze_os_setup” after the installation
 
-### Additional information can be found on our EO-LAB spectrometer page: https://wiki.eolab.de/doku.php?id=eolab:spectrometer:start
+### Additional information can be found on our EO-LAB spectrometer page: 
+
+https://wiki.eolab.de/doku.php?id=eolab:spectrometer:start
