@@ -14,6 +14,7 @@
 
 ### PySeaBreeze package installation
 Github: https://github.com/ap--/python-seabreeze
+
 Docs: https://python-seabreeze.readthedocs.io/en/latest/backend_api.html
 
 !!  The Red-Tide spectrometers cant be used with pyseabreeze due to some firmware limitations of the spectrometers. Use Ocean View instead.
