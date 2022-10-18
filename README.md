@@ -1,4 +1,5 @@
-### Ocean Insight Spectrometers
+
+#### EO-LAB Ocean Insight Spectrometers
 
 #### Folder Structure:
 * examples:
@@ -12,19 +13,22 @@
   * the optional "combined" tag is used when the calibration was done with a combined light sources (Halogen and Deterium lamps)
 
 #### PySeaBreeze package installation
+Github: https://github.com/ap--/python-seabreeze
+Docs: https://python-seabreeze.readthedocs.io/en/latest/backend_api.html
 
-* Github: https://github.com/ap--/python-seabreeze
-* Docs: https://python-seabreeze.readthedocs.io/en/latest/backend_api.html
+!!  The Red-Tide spectrometers cant be used with pyseabreeze due to some firmware limitations of the spectrometers. Use Ocean View instead.
 
-* ! The Red-Tide spectrometers cant be used with pyseabreeze due to some firmware limitations of the spectrometers. Use Ocean View instead.
-
-Installation
+##### Installation:
 Conda:
-conda install -c conda-forge seabreeze
-seabreeze_os_setup
+
+    conda install -c conda-forge seabreeze
+    seabreeze_os_setup
+
 Python PIP:
-pip install seabreeze
-seabreeze_os_setup
-:!: Make sure to run “seabreeze_os_setup” after the installation
+
+    pip install seabreeze
+    seabreeze_os_setup
+
+!! Make sure to run “seabreeze_os_setup” after the installation
 
 #### Additional information can be found on our EO-LAB spectrometer page: https://wiki.eolab.de/doku.php?id=eolab:spectrometer:start
